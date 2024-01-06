@@ -207,3 +207,83 @@ main {
 }
 
 /* ================ What I Do Section  End ================ */
+/* ================ Summary Of My Reusme Section start ================= */
+.resume_summary > h2 {
+  margin-top: 130px;
+  margin-bottom: 112px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+}
+.resume_parent {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.eduction_parent {
+  margin-right: 71px;
+}
+.eduction_parent > h2 {
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.eduction_parent > div > h3 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+}
+.eduction_parent > div > span {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.eduction_parent > div > p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+.eduction_parent > hr {
+  margin-bottom: 30px;
+  background: #d1d1d1;
+  height: 1px;
+}
+/* Exprience parent ================ */
+
+.exprience_parent > h2 {
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.exprience_parent > div > h3 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+}
+.exprience_parent > div > span {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.exprience_parent > div > p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+.exprience_parent > hr {
+  margin-bottom: 30px;
+  color: #d1d1d1;
+  height: 1px;
+}
+.down_btn {
+  padding: 10px;
+}
+.resume-down-btn {
+  margin: auto;
+}
+/* ================ Summary Of My Reusme Section end ================= */
