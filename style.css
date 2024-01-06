@@ -10,11 +10,11 @@ body {
 .primary {
   color: #fd6e0a;
 }
-/* nav styles */
+/* nav related styles styles */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 51px 100px 0 100px;
+  padding: 30px 200px;
 }
 .nav_title {
   color: #181818;
@@ -47,4 +47,65 @@ nav {
 .btn {
   padding: 17px 35px;
   font-size: 20px;
+}
+.header {
+  background-color: #fff8f3;
+  background-image: url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+/* banner related styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 10px 30px 0 200px;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+}
+.banner-content > h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-content > h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-content P {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.down-btn {
+  display: flex;
+  align-items: center;
+  padding: 18px 17px;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 30px;
+}
+.con-btn {
+  display: flex;
+  align-items: center;
+  padding: 18px 17px;
+  font-size: 20px;
+  color: #fff;
+}
+.btn-parent {
+  display: flex;
+  align-items: center;
+}
+.btn-parent img {
+  width: 24px;
+  height: 24px;
+}
+/* Banner image  */
+.banner-image imj {
+  width: 570px;
+  height: 680px;
 }
