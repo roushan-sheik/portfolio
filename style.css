@@ -176,10 +176,11 @@ main {
 .what_i_do > div {
   margin-top: 130px;
 }
-.what_i_do > div h2 {
+.what_i_do > div > h2 {
   font-size: 35;
   font-weight: bold;
   text-align: center;
+  margin: 30px 0;
 }
 .what_i_do > div > p {
   font-size: 18px;
