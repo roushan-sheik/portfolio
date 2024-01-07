@@ -12,6 +12,12 @@ body {
 }
 /* ================ Banner Start ====================  */
 /* nav related styles styles */
+.dev_img {
+  position: absolute;
+  left: 25px;
+  top: 38px;
+  height: 710px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -219,7 +225,6 @@ main {
 .resume_parent {
   display: flex;
   margin-bottom: 50px;
-  align-items: center;
 }
 .eduction_parent {
   margin-right: 71px;
